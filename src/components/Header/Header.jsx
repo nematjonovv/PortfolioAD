@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Header.scss";
 import { useTranslation } from "react-i18next";
+import logo from "../../../public/images/mainLogo.png"
 function Header() {
   
   const [t, i18n] = useTranslation("global");
@@ -15,7 +16,7 @@ function Header() {
         <Link to={"/"}>
           <img
             className="mainLogo"
-            src="../../../public/images/mainLogo.png"
+            src={logo}
             alt=""
           />
         </Link>
