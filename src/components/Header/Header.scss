@@ -1,0 +1,43 @@
+.navbar {
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    .mainLogo {
+      height: 100px;
+    }
+    .navigation {
+      display: flex;
+      align-items: center;
+      justify-content: stretch;
+      z-index: 10;
+      width: 500px;
+      &-item {
+        margin-left: 25px;
+        font-size: 16px;
+        font-weight: 500;
+        white-space: nowrap;
+        a {
+          color: #333;
+        }
+      }
+    }
+  }
+}
+.changeLang {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 0;
+  padding: 5px;
+  color: #333;
+  option {
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    color: #333;
+  }
+}

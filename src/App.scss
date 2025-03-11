@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1320px;
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background-color: #f9faff;
+}
+/* Scrollbar'ni ingichka va yumaloq qilish */
+::-webkit-scrollbar {
+  width: 10px; /* Gorizontal scrollda height */
+}
+
+/* Scrollbar'ning track (orqa fon) qismi */
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #ffbd97, #ffffff);
+}
+
+/* Scrollbar slideri (harakatlanadigan qismi) */
+::-webkit-scrollbar-thumb {
+  background: #333; /* Sariq */
+}
+
+/* Hover qilinganda slider rangi */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: grab;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #555;
+  cursor: grabbing;
+}
+
+.components-title {
+  text-align: center;
+  font-size: 45px;
+  color: #333;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.components-title::after {
+  content: " ";
+  display: flex;
+  flex-direction: column;
+  height: 6px;
+  width: 150px;
+  background-color: #ffbd97;
+  margin: 0 auto;
+  border-radius: 10px;
+}

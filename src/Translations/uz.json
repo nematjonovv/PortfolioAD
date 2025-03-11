@@ -1,0 +1,44 @@
+{
+  "home": {
+    "hero": {
+      "role": "grafik dizayner",
+      "greeting": "Salom, mening ismim",
+      "desc": "Siz, nima bilan shug'ullanayotganingiz yoki professional martabangiz haqida batafsil ma'lumotga ega qisqa matn. Haqida sahifada qo'shimcha ma'lumot qo'shishingiz mumkin."
+    },
+    "navbar": {
+      "home": "Asosiy",
+      "portfolio": "Portfolio",
+      "about": "Men haqimda",
+      "contact": "Bog'lanish"
+    },
+    "topProjects": {
+      "title": "Loyihalar",
+      "desc": " Mijoz uchun: Quyosh panellari servisi bo'yicha faoliyat olib borar ekanlar va ko'proq eco ga urg'ru berilgan holda minimalistik va premium smd tayorlab berildi, va mijozga ish maqul bo'ldi. Fikr va savollaringizni izohlar qismida yozib qoldiring!"
+    },
+    "services": {
+      "sectionTitle": "Biznesingiz uchun kreativ yechimlar",
+      "servicesChild": [
+        {
+          "title": "Brending va Logotip",
+          "subtitle": "Brendingingizni o‘ziga xos va esda qolarli qiling.",
+          "description": "Brend identifikatsiyasi yaratishda sizga yordam beraman. Noyob logotip va vizual uslub ishlab chiqib, biznesingizni professional ko‘rinishga olib chiqaman."
+        },
+        {
+          "title": "SMD Postlar",
+          "subtitle": "Ijtimoiy tarmoqlarda ko‘proq e’tibor qozoning.",
+          "description": "Instagram, Facebook va boshqa platformalar uchun jozibali post va banner dizaynlarini yarataman. Kontentingiz brendingizga mos va vizual jihatdan ta’sirchan bo‘lishiga e’tibor qarataman."
+        },
+        {
+          "title": "UI/UX Dizayn",
+          "subtitle": "Veb-saytingizni jozibador va qulay qiling.",
+          "description": "Foydalanuvchilarga yoqadigan zamonaviy va intuitiv dizayn yarataman. UX/UI tamoyillariga asoslangan yondashuv orqali saytingiz qulay va samarali ishlashini ta’minlayman."
+        },
+        {
+          "title": "Poligrafiya va Reklama",
+          "subtitle": "Bosma reklama mahsulotlari orqali mijozlaringiz e’tiborini torting.",
+          "description": "Vizitkalar, bannerlar, flayerlar va boshqa bosma mahsulotlar uchun professional dizaynlar tayyorlayman. Reklama materiallaringiz sifatli va samarali bo‘lishiga e’tibor beraman."
+        }
+      ]
+    }
+  }
+}
