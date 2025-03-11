@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { useTranslation } from "react-i18next";
-
 function TopProjects() {
   const [t] = useTranslation("global");
 
@@ -13,27 +12,27 @@ function TopProjects() {
       id: 1,
       title: "ECO SUN SERVICE",
       img: [
-        "/public/images/ecosun/eco.png",
-        "/public/images/ecosun/eco1.png",
-        "/public/images/ecosun/eco3.png",
+        "../../../../public/images/ecosun/eco.png",
+        "../../../../public/images/ecosun/eco1.png",
+        "../../../../public/images/ecosun/eco3.png",
       ],
     },
     {
       id: 2,
       title: "ECO SUN SERVICE",
       img: [
-        "/public/images/ecosun/eco.png",
-        "/public/images/ecosun/eco1.png",
-        "/public/images/ecosun/eco3.png",
+        "../../../../public/images/ecosun/eco.png",
+        "../../../../public/images/ecosun/eco1.png",
+        "../../../../public/images/ecosun/eco3.png",
       ],
     },
     {
       id: 3,
       title: "ECO SUN SERVICE",
       img: [
-        "/public/images/ecosun/eco.png",
-        "/public/images/ecosun/eco1.png",
-        "/public/images/ecosun/eco3.png",
+        "../../../../public/images/ecosun/eco.png",
+        "../../../../public/images/ecosun/eco1.png",
+        "../../../../public/images/ecosun/eco3.png",
       ],
     },
   ];
