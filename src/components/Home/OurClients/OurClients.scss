@@ -1,0 +1,39 @@
+@keyframes moveLogos {
+    0% {
+        transform: translateX(15%);
+    }
+    100% {
+        transform: translateX(-15%);
+    }
+}
+
+.OurClients {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #f1f1f1;
+    padding: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.clientLogosWrapper {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: moveLogos 5s linear infinite alternate;
+}
+
+/* Logotiplar */
+.clientLogo {
+    min-width: 100px;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

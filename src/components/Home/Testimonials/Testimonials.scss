@@ -3,6 +3,10 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
+    margin-top: 150px;
+    h1{
+    text-transform: capitalize;
+    }
     .clients_wrapper{
         display: flex;
         justify-content: space-between;

@@ -39,6 +39,23 @@
           "description": "Vizitkalar, bannerlar, flayerlar va boshqa bosma mahsulotlar uchun professional dizaynlar tayyorlayman. Reklama materiallaringiz sifatli va samarali bo‘lishiga e’tibor beraman."
         }
       ]
+    },
+    "clientsOpinion": {
+      "title": "Mijozlarimizning fikrlari",
+      "testimonials": [
+        {
+          "clientName": "Ali Vohidov",
+          "clientSay": "Xizmat sifati juda yuqori, natijadan to‘liq mamnun bo‘ldim!"
+        },
+        {
+          "clientName": "Madina Otaboyeva",
+          "clientSay": "Ijodiy yondashuv va professionallik meni hayratga soldi."
+        },
+        {
+          "clientName": "Jasur Ergashev",
+          "clientSay": "Ish sifati a’lo darajada! Jamoa juda samarali ishladi."
+        }
+      ]
     }
   }
 }

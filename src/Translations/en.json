@@ -11,38 +11,55 @@
       "about": "About",
       "contact": "Contact"
     },
-    "topProjects":{
-        "title": "Projects",
-        "desc": "For the client: They are working on solar panel service and with more emphasis on eco, minimalistic and premium smd was prepared, and the client was satisfied with the work. Leave your thoughts and questions in the comments section!"
+    "topProjects": {
+      "title": "Projects",
+      "desc": "For the client: They are working on solar panel service and with more emphasis on eco, minimalistic and premium smd was prepared, and the client was satisfied with the work. Leave your thoughts and questions in the comments section!"
     },
-    "services":{
-        "sectionTitle": "Creative Solutions for Your Business",
-        "servicesChild": [
-          {
-            "title": "Branding & Logo Design",
-            "subtitle": "Make your brand unique and memorable.",
-            "description": "I help create brand identities by designing unique logos and visual styles that give your business a professional look.",
-            "icon": "🎨"
-          },
-          {
-            "title": "Social Media Design",
-            "subtitle": "Get more attention on social media.",
-            "description": "I create eye-catching posts and banners for Instagram, Facebook, and other platforms. Your content will be visually appealing and aligned with your brand identity.",
-            "icon": "📱"
-          },
-          {
-            "title": "Web Design (UI/UX)",
-            "subtitle": "Make your website attractive and user-friendly.",
-            "description": "I design modern and intuitive websites that users love. My approach is based on UX/UI principles to ensure a seamless and efficient user experience.",
-            "icon": "💻"
-          },
-          {
-            "title": "Print & Advertising Design",
-            "subtitle": "Capture your customers' attention with print materials.",
-            "description": "I create professional designs for business cards, banners, flyers, and other print materials. Your marketing materials will be high-quality and effective.",
-            "icon": "🏷️"
-          }
-        ]
+    "services": {
+      "sectionTitle": "Creative Solutions for Your Business",
+      "servicesChild": [
+        {
+          "title": "Branding & Logo Design",
+          "subtitle": "Make your brand unique and memorable.",
+          "description": "I help create brand identities by designing unique logos and visual styles that give your business a professional look.",
+          "icon": "🎨"
+        },
+        {
+          "title": "Social Media Design",
+          "subtitle": "Get more attention on social media.",
+          "description": "I create eye-catching posts and banners for Instagram, Facebook, and other platforms. Your content will be visually appealing and aligned with your brand identity.",
+          "icon": "📱"
+        },
+        {
+          "title": "Web Design (UI/UX)",
+          "subtitle": "Make your website attractive and user-friendly.",
+          "description": "I design modern and intuitive websites that users love. My approach is based on UX/UI principles to ensure a seamless and efficient user experience.",
+          "icon": "💻"
+        },
+        {
+          "title": "Print & Advertising Design",
+          "subtitle": "Capture your customers' attention with print materials.",
+          "description": "I create professional designs for business cards, banners, flyers, and other print materials. Your marketing materials will be high-quality and effective.",
+          "icon": "🏷️"
+        }
+      ]
+    },
+    "clientsOpinion": {
+      "title": "What our clients say",
+      "testimonials": [
+        {
+          "clientName": "James Anderson",
+          "clientSay": "Exceptional service and support from start to finish. Highly recommend!"
+        },
+        {
+          "clientName": "Samantha Lee",
+          "clientSay": "Their attention to detail and creative solutions were beyond my expectations."
+        },
+        {
+          "clientName": "James Anderson",
+          "clientSay": "A fantastic team that delivered a stunning result on our project."
+        }
+      ]
     }
   }
 }

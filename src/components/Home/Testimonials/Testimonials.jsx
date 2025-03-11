@@ -1,27 +1,23 @@
 import "./Testimonials.scss"
-import client1 from "../../../../public/images/testimonials/Image (2).png"
+import client1 from "../../../../public/images/testimonials/Image.png"
 import client2 from "../../../../public/images/testimonials/Image (1).png"
 import client3 from "../../../../public/images/testimonials/Image.png"
+import { useTranslation } from "react-i18next"
 function Testimonials() {
+    const [t] = useTranslation("global")
+    const testimonialImg = [client1, client2, client3]
   return (
     <div className='clients_say'>
-        <h1>What our clients say</h1>
+        <h1 className="components-title">{t("home.clientsOpinion.title")}</h1>
         <div className="clients_wrapper">
-            <div className="clients_cart">
-                <img src={client1} alt="" />
-                <h1>James Anderson</h1>
-                <p>"Exceptional service and support from start to finish. Highly recommend!"</p>
+            {t("home.clientsOpinion.testimonials", {returnObjects: true}).map((testimonial,index)=>(
+                <div className="clients_cart">
+                <img src={testimonialImg[index]} alt="" />
+                <h1>{testimonial.clientName}</h1>
+                <p>"{testimonial.clientSay}"</p>
             </div>
-            <div className="clients_cart">
-                <img src={client2} alt="" />
-                <h1>Samantha Lee</h1>
-                <p>"Their attention to detail and creative solutions were beyond my expectations."</p>
-            </div>
-            <div className="clients_cart">
-                <img src={client3} alt="" />
-                <h1>James Anderson</h1>
-                <p>""A fantastic team that delivered a stunning result on our project.""</p>
-            </div>
+            ))}
+            
         </div>
     </div>
   )
