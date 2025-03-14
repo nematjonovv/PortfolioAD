@@ -60,6 +60,22 @@
           "clientSay": "A fantastic team that delivered a stunning result on our project."
         }
       ]
+    },
+    "contactForm":{
+      "title": "Get in Touch",
+      "subTitle": "Fill out the form to request our design services",
+      "name":"Name",
+      "namePlace":"Your name",
+      "phone": "Phone Number",
+      "service":"Design Service",
+      "servicePlace": "Select a service",
+      "submit": "Submit Request",
+      "endTitle": "Thank You",
+      "endSubtitle": "We'll contact you shortly about your request."
     }
+  },
+  "footer":{
+    "subtitle":"Creating tomorrow's designs today",
+    "copyright":"PortfolioAD. All rights reserved."
   }
 }

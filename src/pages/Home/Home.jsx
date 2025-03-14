@@ -1,3 +1,4 @@
+import FormContact from "../../components/FormContact/FormContact";
 import Hero from "../../components/Home/Hero/Hero";
 import OurClients from "../../components/Home/OurClients/OurClients";
 import Service from "../../components/Home/Services/Service";
@@ -15,6 +16,7 @@ function Home() {
         <Testimonials />
       </div>
       <OurClients />
+      <FormContact />
     </div>
   );
 }

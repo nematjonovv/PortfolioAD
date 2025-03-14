@@ -33,15 +33,15 @@ function TopProjects() {
       <h1 className="components-title">{t("home.topProjects.title")}</h1>
       <ul className="topProjects-menu">
         {topProjectsData.map((item, index) => (
-          <div className="topProjects-item">
+          <div className="topProjects-item" key={index}>
             <div className="item-carousel">
               <Swiper
                 navigation={true}
                 modules={[Navigation]}
                 className="mySwiper"
               >
-                {item.img.map((img) => (
-                  <SwiperSlide>
+                {item.img.map((img, imgIn) => (
+                  <SwiperSlide key={imgIn}>
                     <img src={img} alt="" />
                   </SwiperSlide>
                 ))}

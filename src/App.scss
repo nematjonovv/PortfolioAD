@@ -15,22 +15,18 @@
 body {
   background-color: #f9faff;
 }
-/* Scrollbar'ni ingichka va yumaloq qilish */
 ::-webkit-scrollbar {
-  width: 10px; /* Gorizontal scrollda height */
+  width: 10px;
 }
 
-/* Scrollbar'ning track (orqa fon) qismi */
 ::-webkit-scrollbar-track {
   background: linear-gradient(to bottom, #ffbd97, #ffffff);
 }
 
-/* Scrollbar slideri (harakatlanadigan qismi) */
 ::-webkit-scrollbar-thumb {
-  background: #333; /* Sariq */
+  background: #333; 
 }
 
-/* Hover qilinganda slider rangi */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
   cursor: grab;

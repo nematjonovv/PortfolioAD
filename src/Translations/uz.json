@@ -56,6 +56,22 @@
           "clientSay": "Ish sifati a’lo darajada! Jamoa juda samarali ishladi."
         }
       ]
+    },
+    "contactForm": {
+      "title": "Aloqaga chiqish",
+      "subTitle": "Dizayn xizmatlarimizga buyurtma berish uchun shaklni to‘ldiring",
+      "name": "Ism",
+      "namePlace": "Ismingizni kiriting",
+      "phone": "Telefon raqam",
+      "service": "Dizayn xizmati",
+      "servicePlace": "Xizmatni tanlang",
+      "submit": "So‘rov yuborish",
+      "endTitle": "Rahmat",
+      "endSubtitle": "Siz bilan tez orada bog‘lanamiz."
     }
+  },
+  "footer": {
+    "subtitle": "Ertangi dizaynlarni bugun yaratamiz",
+    "copyright": "PortfolioAD. Barcha huquqlar himoyalangan."
   }
 }

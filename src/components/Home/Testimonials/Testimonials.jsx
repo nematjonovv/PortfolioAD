@@ -11,7 +11,7 @@ function Testimonials() {
         <h1 className="components-title">{t("home.clientsOpinion.title")}</h1>
         <div className="clients_wrapper">
             {t("home.clientsOpinion.testimonials", {returnObjects: true}).map((testimonial,index)=>(
-                <div className="clients_cart">
+                <div className="clients_cart" key={index}>
                 <img src={testimonialImg[index]} alt="" />
                 <h1>{testimonial.clientName}</h1>
                 <p>"{testimonial.clientSay}"</p>
