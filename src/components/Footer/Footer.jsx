@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Footer.scss";
 import { useTranslation } from "react-i18next";
-
+import mainLogo from '../../../public/images/mainLogo.png'
 export default function Footer() {
   const currentYear = new Date().getFullYear();
     const [t] = useTranslation("global")
@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="footer-brand">
             <div className="logo">
               <div className="logo-icon">
-                <img src="../../../public/images/mainLogo.png" alt="" />
+                <img src={mainLogo} alt="" />
               </div>
             </div>
             <p className="brand-tagline">{t("footer.subtitle")}</p>
