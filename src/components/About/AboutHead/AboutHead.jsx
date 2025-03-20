@@ -2,6 +2,7 @@ import './AboutHead.scss'
 import profileImg from '../../../../public/images/DAVRON.jpg'
 import FormContact from '../../FormContact/FormContact'
 import { useState } from 'react'
+import { Link } from 'lucide-react'
 function AboutHead() {
     const [showForm, setShowForm] = useState(false)
   return (
@@ -14,7 +15,7 @@ function AboutHead() {
                     <p>Graphic Designer</p>
                 </span>
             </div>
-            <button className='profile_contact' onClick={()=> setShowForm(true)}>Contact</button>
+            <Link to={"/contact"} className='profile_contact'>Contact</Link>
         </div>
         <div className={showForm ? 'about_contact active' : 'about_contact'}>
             <FormContact />
