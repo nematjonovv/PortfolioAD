@@ -204,9 +204,8 @@ function AboutProject() {
     //   .then((response) => response.json())
     //   .then((data) => setAboutProject(data))
     //   .catch((err) => console.error("Error", err));
-
-    setAboutProject(portfolio[projectId])
-  }, []);
+    portfolio?.filter((project) => projectId === project.id).map((item)=> setAboutProject(item))
+  }, [projectId]);
   return (
     <div className="container aboutProject-wrapper">
       <Swiper
