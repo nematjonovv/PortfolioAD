@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
             <p className="brand-tagline">{t("footer.subtitle")}</p>
           </div>
-
+              
           <nav className="footer-nav">
             <ul className="nav-list">
               <li>

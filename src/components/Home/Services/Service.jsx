@@ -3,10 +3,9 @@ import { useTranslation } from "react-i18next";
 import branding from "../../../../public/images/servicesImg/branding.png";
 import social from "../../../../public/images/servicesImg/instagram (1).png";
 import uiux from "../../../../public/images/servicesImg/ux.png";
-import flyer from "../../../../public/images/servicesImg/flyer.png";
 function Service() {
   const [t] = useTranslation("global");
-  const serviceIcons = [branding, social, uiux, flyer];
+  const serviceIcons = [branding, social, uiux];
   return (
     <section className="services">
       <h1 className="components-title">{t("home.services.sectionTitle")}</h1>

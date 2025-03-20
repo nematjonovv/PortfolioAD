@@ -35,12 +35,6 @@
           "subtitle": "Make your website attractive and user-friendly.",
           "description": "I design modern and intuitive websites that users love. My approach is based on UX/UI principles to ensure a seamless and efficient user experience.",
           "icon": "💻"
-        },
-        {
-          "title": "Print & Advertising Design",
-          "subtitle": "Capture your customers' attention with print materials.",
-          "description": "I create professional designs for business cards, banners, flyers, and other print materials. Your marketing materials will be high-quality and effective.",
-          "icon": "🏷️"
         }
       ]
     },
@@ -61,21 +55,64 @@
         }
       ]
     },
-    "contactForm":{
+    "contactForm": {
       "title": "Get in Touch",
       "subTitle": "Fill out the form to request our design services",
-      "name":"Name",
-      "namePlace":"Your name",
-      "phone": "Phone Number",
-      "service":"Design Service",
+      "name": "Name",
+      "namePlace": "Davron Akbarov",
+      "email": "Email",
+      "message": "Message",
+      "messagePlace": "Ex: Hi Davide, I'd love to chat about a project I'm working on",
       "servicePlace": "Select a service",
-      "submit": "Submit Request",
+      "submit": "Send Message",
+      "sending": "Sending...",
       "endTitle": "Thank You",
       "endSubtitle": "We'll contact you shortly about your request."
     }
   },
-  "footer":{
-    "subtitle":"Creating tomorrow's designs today",
-    "copyright":"PortfolioAD. All rights reserved."
+  "footer": {
+    "subtitle": "Creating tomorrow's designs today",
+    "copyright": "PortfolioAD. All rights reserved."
+  },
+  "about": {
+    "skills": {
+      "title": "Skills & Expertise",
+      "skill": [
+        "Branding",
+        "Logo Design",
+        "Typography",
+        "Illustration",
+        "Color Theory",
+        "User Interface",
+        "Responsive Design",
+        "UI/UX Design"
+      ]
+    },
+    "professionalSkill": {
+      "title": "Professional Experience",
+      "experinece": [
+        {
+          "where": "Graphic Designer at Studio 9",
+          "from": "2021",
+          "to": "2022"
+        },
+        {
+          "where": "Freelance Graphic Designer",
+          "from": "2022",
+          "to": "Present"
+        }
+      ]
+    },
+    "description": {
+      "title": "About Me",
+      "desc": "I am a passionate and creative graphic designer with a keen eye for detail and a strong sense of visual storytelling. With experience in branding, illustration, and UI/UX design, I create visually compelling designs that effectively communicate ideas and enhance user experiences. My expertise includes logo design, typography, and color theory, ensuring that each project is both aesthetically appealing and strategically impactful. Always eager to explore new trends and technologies, I strive to deliver innovative and meaningful designs that leave a lasting impression."
+    }
+  },
+  "contact":{
+    "title": "Let's Create Togethere",
+    "subtitle": "I'm a graphic designer and illustrator based in London. I'm available for freelance work, collaborations",
+    "details": [
+      {}
+    ]
   }
 }

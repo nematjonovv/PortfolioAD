@@ -32,11 +32,6 @@
           "title": "UI/UX Dizayn",
           "subtitle": "Veb-saytingizni jozibador va qulay qiling.",
           "description": "Foydalanuvchilarga yoqadigan zamonaviy va intuitiv dizayn yarataman. UX/UI tamoyillariga asoslangan yondashuv orqali saytingiz qulay va samarali ishlashini ta’minlayman."
-        },
-        {
-          "title": "Poligrafiya va Reklama",
-          "subtitle": "Bosma reklama mahsulotlari orqali mijozlaringiz e’tiborini torting.",
-          "description": "Vizitkalar, bannerlar, flayerlar va boshqa bosma mahsulotlar uchun professional dizaynlar tayyorlayman. Reklama materiallaringiz sifatli va samarali bo‘lishiga e’tibor beraman."
         }
       ]
     },
@@ -58,20 +53,60 @@
       ]
     },
     "contactForm": {
-      "title": "Aloqaga chiqish",
-      "subTitle": "Dizayn xizmatlarimizga buyurtma berish uchun shaklni to‘ldiring",
+      "title": "Bog‘lanish",
+      "subTitle": "Dizayn xizmatlarimizni so‘rash uchun shaklni to‘ldiring",
       "name": "Ism",
-      "namePlace": "Ismingizni kiriting",
-      "phone": "Telefon raqam",
-      "service": "Dizayn xizmati",
+      "namePlace": "Davron Akbarov",
+      "email": "Email",
+      "message": "Xabar",
+      "messagePlace": "Masalan: Salom Davide, men ishlayotgan loyiha haqida suhbatlashmoqchiman",
       "servicePlace": "Xizmatni tanlang",
-      "submit": "So‘rov yuborish",
+      "submit": "Xabarni yuborish",
+      "sending": "Yuborilmoqda...",
       "endTitle": "Rahmat",
-      "endSubtitle": "Siz bilan tez orada bog‘lanamiz."
+      "endSubtitle": "So‘rovingiz bo‘yicha tez orada siz bilan bog‘lanamiz."
     }
   },
   "footer": {
     "subtitle": "Ertangi dizaynlarni bugun yaratamiz",
     "copyright": "PortfolioAD. Barcha huquqlar himoyalangan."
+  },
+  "about": {
+    "skills": {
+      "title": "Ko'nikmalar va Tajriba",
+      "skill": [
+        "Brending",
+        "Logotip Dizayni",
+        "Tipografiya",
+        "Illyustratsiya",
+        "Ranglar Nazariyasi",
+        "Foydalanuvchi Interfeysi",
+        "Moslashuvchan Dizayn",
+        "UI/UX Dizayni"
+      ]
+    },
+    "professionalSkill": {
+      "title": "Professional Tajriba",
+      "experinece": [
+        {
+          "where": "Studio 9 da Grafik Dizayner",
+          "from": "2021",
+          "to": "2022"
+        },
+        {
+          "where": "Frilans Grafik Dizayner",
+          "from": "2022",
+          "to": "Hozirgacha"
+        }
+      ]
+    },
+    "description": {
+      "title": "Men Haqimda",
+      "desc": "Men ishtiyoqi baland va ijodkor grafik dizaynerman. Detallarga e’tibor berish va vizual hikoya yaratish bo‘yicha mustahkam ko‘nikmalarga egaman. Brending, illyustratsiya va UI/UX dizayn bo‘yicha tajribaga ega bo‘lib, g‘oyalarni samarali yetkazish va foydalanuvchilar tajribasini yaxshilash uchun jozibali vizual dizaynlar yarataman. Mening mutaxassisligim logotip dizayni, tipografiya va ranglar nazariyasini o‘z ichiga oladi, bu esa har bir loyihani estetik jihatdan jozibador va strategik jihatdan samarali qiladi. Yangi tendensiyalar va texnologiyalarni o‘rganishga doim tayyorman, innovatsion va mazmunli dizaynlar yaratishga intilaman."
+    }
+  },
+  "contact": {
+    "title": "Keling, birga ishlaymiz!",
+    "subtitle": "Men Londonda yashovchi grafik dizayner va illyustratorman. Frilans ishlar, hamkorlik va buyurtmalar uchun ochiqman."
   }
 }

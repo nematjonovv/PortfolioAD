@@ -1,0 +1,89 @@
+.aboutProject-wrapper {
+    .projectBody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 40px;
+            margin: 15px 0 0px 0;
+        }
+        
+    }
+  .mySwiper {
+    background-color: #e7eef2;
+    border-radius: 20px;
+    .swiperslide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 100%;
+        object-fit: contain;
+        max-height: 500px;
+      }
+    }
+    .swiperslide:active {
+      cursor: grabbing;
+    }
+  }
+  .mySwiper:hover {
+    cursor: grab;
+  }
+
+  .swiper-scrollbar {
+    background: rgba(0, 0, 0, 0.1); /* Orqa fon rangi */
+  }
+
+  .swiper-scrollbar-drag {
+    background: #ffbd97 !important; /* Harakatlanuvchi tugma (thumb) rangi */
+  }
+
+  .view_live {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e7eef2;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #121619;
+    font-weight: 700;
+    a {
+      color: #121619;
+
+      i {
+        margin: 0 5px;
+        padding: 0;
+      }
+    }
+  }
+
+  .techstack {
+    display: flex;
+    align-items: center;
+    span {
+      background-color: #FFBD97;
+      font-size: 13px;
+      padding: 10px 20px;
+      margin: 5px 0;
+      margin-right: 15px;
+      border-radius: 5px;
+    }
+  }
+}
+
+
+.type{
+    font-size: 13px;
+    color: #55738E !important;
+    margin-bottom: 10px;
+}
+.subtitle{
+    color: #121619;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.about, .tech{
+    margin: 20px 0;
+}

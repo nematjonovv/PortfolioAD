@@ -2,12 +2,15 @@ import { Link } from "react-router-dom";
 import "./Header.scss";
 import { useTranslation } from "react-i18next";
 import logo from "../../../public/images/mainLogo.png"
+import { useContext } from "react";
+import { Context } from "../../Context/Context";
 function Header() {
   
   const [t, i18n] = useTranslation("global");
-
+  const {setLang} = useContext(Context)
   const handleChangeLanguage = (lang) => {
     i18n.changeLanguage(lang)
+    setLang(lang)
   }
 
   return (
