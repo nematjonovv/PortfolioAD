@@ -1,10 +1,7 @@
 import './AboutHead.scss'
 import profileImg from '../../../../public/images/DAVRON.jpg'
-import FormContact from '../../FormContact/FormContact'
-import { useState } from 'react'
-import { Link } from 'lucide-react'
+import { Link } from 'react-router-dom'
 function AboutHead() {
-    const [showForm, setShowForm] = useState(false)
   return (
     <div className='aboutHead'>
         <div className="aboutProfile">
@@ -15,7 +12,7 @@ function AboutHead() {
                     <p>Graphic Designer</p>
                 </span>
             </div>
-            <Link to={"/contact"} className='profile_contact'>Contact</Link>
+            <Link to={"/contact"} className='profile_contact'><button>Contact</button></Link>
         </div>
     </div>
   )
