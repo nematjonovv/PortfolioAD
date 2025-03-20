@@ -17,10 +17,6 @@ function AboutHead() {
             </div>
             <Link to={"/contact"} className='profile_contact'>Contact</Link>
         </div>
-        <div className={showForm ? 'about_contact active' : 'about_contact'}>
-            <FormContact />
-            <button className='goback' onClick={()=> setShowForm(false)}>Go to back</button>
-        </div>
     </div>
   )
 }
