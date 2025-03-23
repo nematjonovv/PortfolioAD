@@ -1,9 +1,9 @@
 @keyframes moveLogos {
     0% {
-        transform: translateX(15%);
+        transform: translateX(13%);
     }
     100% {
-        transform: translateX(-15%);
+        transform: translateX(-13%);
     }
 }
 
@@ -28,12 +28,19 @@
 /* Logotiplar */
 .clientLogo {
     min-width: 100px;
-    width: 200px;
-    height: 120px;
+    width: 230px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    img{
+        // height: 150px;
+        // width: 120px;
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+    }
 }

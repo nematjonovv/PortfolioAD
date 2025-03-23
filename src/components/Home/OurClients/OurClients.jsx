@@ -3,25 +3,23 @@ import "./OurClients.scss";
 
 function OurClients() {
   const [logos, setLogos] = useState([
-    "Logo10",
-    "Logo1",
-    "Logo2",
-    "Logo3",
-    "Logo4",
-    "Logo5",
-    "Logo6",
-    "Logo7",
-    "Logo8",
-    "Logo9",
-    "Logo10",
-    "Logo1"
+    "https://images-ecru.vercel.app/PortfoliAD/logo8.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo1.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo2.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo3.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo4.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo5.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo6.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo7.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo8.png",
+    "https://images-ecru.vercel.app/PortfoliAD/logo1.png",
   ]);
   return (
     <div className="OurClients">
       <div className="clientLogosWrapper">
         {logos?.map((logo, index) => (
           <div key={index} className="clientLogo">
-            {logo}
+            <img src={logo} alt="" />
           </div>
         ))}
       </div>

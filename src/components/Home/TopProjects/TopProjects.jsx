@@ -7,7 +7,8 @@ import { useTranslation } from "react-i18next";
 import eco1 from "../../../../public/images/ecosun/eco.png"
 import eco2 from "../../../../public/images/ecosun/eco1.png"
 import eco3 from "../../../../public/images/ecosun/eco3.png"
-function TopProjects() {
+function 
+TopProjects() {
   const [t] = useTranslation("global");
 
   const topProjectsData = [

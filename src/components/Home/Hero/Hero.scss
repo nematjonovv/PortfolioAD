@@ -8,7 +8,7 @@
     background-position: right top;
     background-size: contain;
     height: 100%;
-    width: 70vw;
+    width: 100%;
     z-index: 1;
     position: absolute;
     top: 0;
@@ -60,7 +60,18 @@
     }
   }
 }
-.title-name {
-  flex-wrap: nowrap;
-}
 
+@media (max-width: 1244px) {
+  .bg-yellow {
+    // display: none;
+    background-image: url("../../../../public/images/bg-designer.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 100vh;
+    width: 80vw !important;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

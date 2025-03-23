@@ -3,7 +3,7 @@
     "hero": {
       "role": "GRAPHIC DESIGNER",
       "greeting": "Hello, my name is",
-      "desc": "Short text with details about you, what you do or your professional career. You can add more information on the about page."
+      "desc": "I help businesses stand out with minimalist, futuristic, and premium designs. With expertise in branding, social media visuals, and UI/UX, I create stunning graphics that enhance brand identity and user experience."
     },
     "navbar": {
       "home": "Home",
@@ -71,7 +71,7 @@
     }
   },
   "footer": {
-    "subtitle": "Creating tomorrow's designs today",
+    "subtitle": "Design - is music to the eyes.",
     "copyright": "PortfolioAD. All rights reserved."
   },
   "about": {
@@ -92,20 +92,25 @@
       "title": "Professional Experience",
       "experinece": [
         {
-          "where": "Graphic Designer at Studio 9",
-          "from": "2021",
-          "to": "2022"
+          "where": "Graphic Designer at SVS ART Agency",
+          "from": "2022",
+          "to": "2023"
         },
         {
           "where": "Freelance Graphic Designer",
-          "from": "2022",
+          "from": "2023",
+          "to": "Present"
+        },
+        {
+          "where": "Graphic Designer at Samar Agecy",
+          "from": "2025",
           "to": "Present"
         }
       ]
     },
     "description": {
       "title": "About Me",
-      "desc": "I am a passionate and creative graphic designer with a keen eye for detail and a strong sense of visual storytelling. With experience in branding, illustration, and UI/UX design, I create visually compelling designs that effectively communicate ideas and enhance user experiences. My expertise includes logo design, typography, and color theory, ensuring that each project is both aesthetically appealing and strategically impactful. Always eager to explore new trends and technologies, I strive to deliver innovative and meaningful designs that leave a lasting impression."
+      "desc": "I am a creative graphic designer who brings brands to life through visuals. My goal is to create minimalistic, modern, and eye-catching designs. Throughout my experience, I have worked on logos, social media visuals, and print materials. If you need unique and professionally crafted designs, feel free to reach out!"
     }
   },
   "contact":{

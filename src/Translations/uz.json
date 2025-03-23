@@ -3,7 +3,7 @@
     "hero": {
       "role": "grafik dizayner",
       "greeting": "Salom, mening ismim",
-      "desc": "Siz, nima bilan shug'ullanayotganingiz yoki professional martabangiz haqida batafsil ma'lumotga ega qisqa matn. Haqida sahifada qo'shimcha ma'lumot qo'shishingiz mumkin."
+      "desc": "Men bizneslarga minimalist, futuristik va premium dizaynlar yordamida ajralib turishga ko‘maklashaman. Brending, ijtimoiy media vizuallari va UI/UX bo‘yicha tajribaga ega bo‘lib, brend identifikatsiyasi va foydalanuvchi tajribasini yaxshilaydigan ajoyib grafikalar yarataman."
     },
     "navbar": {
       "home": "Asosiy",
@@ -68,7 +68,7 @@
     }
   },
   "footer": {
-    "subtitle": "Ertangi dizaynlarni bugun yaratamiz",
+    "subtitle": "Dizayn - ko'z uchun musiqa.",
     "copyright": "PortfolioAD. Barcha huquqlar himoyalangan."
   },
   "about": {
@@ -89,20 +89,25 @@
       "title": "Professional Tajriba",
       "experinece": [
         {
-          "where": "Studio 9 da Grafik Dizayner",
-          "from": "2021",
-          "to": "2022"
+          "where": "SVS ART Agency da Grafik Dizayner",
+          "from": "2022",
+          "to": "2023"
         },
         {
           "where": "Frilans Grafik Dizayner",
-          "from": "2022",
+          "from": "2023",
+          "to": "Hozirgacha"
+        },
+        {
+          "where": "Samar Agency da Grafik Dizayner",
+          "from": "2025",
           "to": "Hozirgacha"
         }
       ]
     },
     "description": {
       "title": "Men Haqimda",
-      "desc": "Men ishtiyoqi baland va ijodkor grafik dizaynerman. Detallarga e’tibor berish va vizual hikoya yaratish bo‘yicha mustahkam ko‘nikmalarga egaman. Brending, illyustratsiya va UI/UX dizayn bo‘yicha tajribaga ega bo‘lib, g‘oyalarni samarali yetkazish va foydalanuvchilar tajribasini yaxshilash uchun jozibali vizual dizaynlar yarataman. Mening mutaxassisligim logotip dizayni, tipografiya va ranglar nazariyasini o‘z ichiga oladi, bu esa har bir loyihani estetik jihatdan jozibador va strategik jihatdan samarali qiladi. Yangi tendensiyalar va texnologiyalarni o‘rganishga doim tayyorman, innovatsion va mazmunli dizaynlar yaratishga intilaman."
+      "desc": "Men – kreativ grafik dizaynerman, vizuallar orqali brendlaringizga jon bag‘ishlayman. Minimalistik, zamonaviy va jozibali dizaynlar yaratish – mening asosiy maqsadim. Tajribam davomida logotiplar, ijtimoiy tarmoqlar uchun vizuallar va bosma materiallar ustida ishladim. Sizga ham o‘ziga xos va professionallik bilan yondashilgan dizaynlar kerak bo‘lsa, men bilan bog‘laning!"
     }
   },
   "contact": {
