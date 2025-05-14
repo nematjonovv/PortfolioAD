@@ -7,23 +7,58 @@
     h1{
     text-transform: capitalize;
     }
+    p{
+        font-size: 14px;
+    }
     .clients_wrapper{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
         .clients_cart{
+            h1{
+                font-size: 28px;
+            }
             display: flex;
             flex-direction: column;
-            justify-content: start;
             align-items: center;
             text-align: center;
             background-color: #fff;
-            margin-right: 10px;
-            height: 350px;
+            margin-right: 5px;
             border-radius: 10px;
-            padding: 15px;
+            width: 350px;
+            padding: 25px 5px;
             h1{
-                margin: 20px 0 15px 0;
+                margin: 10px 0 10px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1194px) {
+
+    .clients_say{
+        .clients_wrapper{
+            display: flex;
+            justify-content: center;
+            .clients_cart{
+                margin:25px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .clients_say{
+        // margin: 0;
+        h1{
+            font-size: 30px;
+            margin: 0;
+        }
+        .clients_wrapper{
+            .clients_cart{
+                margin: 15px;
             }
         }
     }

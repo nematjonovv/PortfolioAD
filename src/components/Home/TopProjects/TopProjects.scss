@@ -37,7 +37,7 @@
       p {
         font-size: 15px;
         font-weight: 500;
-        color: #fff;
+        color: #333;
         margin-top: 50px;
       }
     }
@@ -72,3 +72,43 @@
   flex-direction: row;
 }
 
+@media screen and (max-width: 883px) {
+  .topProjects-menu{
+    .topProjects-item{
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      .item-text{
+        width: 100%;
+        padding: 0;
+        h1{
+          flex-wrap: nowrap;
+          margin: 0;
+          padding: 0;
+        }
+        p{
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 586px) {
+  .topProjects-menu{
+    .topProjects-item{
+      padding: 20px;
+      .item-text{
+        // width: 100%;=
+        h1{
+          font-size: 32px;
+        }
+        p{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  
+}

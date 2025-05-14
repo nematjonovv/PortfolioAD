@@ -2,15 +2,15 @@
   div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 10vh;
+    align-items: center; 
+    height: 12vh;
     .mainLogo {
       height: 100px;
     }
     .navigation {
       display: flex;
       align-items: center;
-      justify-content: stretch;
+      justify-content: center;
       width: 500px;
       z-index: 11;
 
@@ -55,6 +55,12 @@
 
 /* Mobil versiya uchun */
 @media (max-width: 768px) {
+  .navbar{
+    position: fixed;
+    background-color: #f1f1f1;
+    width: 100%;
+    z-index: 11;
+  }
   .menu-toggle {
     display: block;
   }
@@ -62,12 +68,13 @@
   .navigation {
     position: fixed;
     top: 0;
-    right: -110%;
-    width: 250px;
+    right: -150%;
+    width: 100vw;
     height: 100vh;
     background: #FFBD97;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease-in-out;

@@ -35,7 +35,8 @@
       font-weight: 400;
       color: #333;
       line-height: 30px;
-      height: 100px;
+      height: 125px;
+      margin-bottom: 20px;
     }
 
     .hero-btn-group {
@@ -61,17 +62,37 @@
   }
 }
 
-@media (max-width: 1244px) {
-  .bg-yellow {
-    // display: none;
-    background-image: url("../../../../public/images/bg-designer.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    height: 100vh;
-    width: 80vw !important;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
+@media screen and (max-width: 1000px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    .bg-yellow {
+      background: none;
+    }
+    .hero-text {
+      text-align: center;
+      width: 90%;
+      .hero-desc {
+        height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .hero{
+    .hero-text{
+      width: auto;
+      .hero-title{
+        font-size: 36px;
+      }
+      .hero-desc{
+        font-size: 14px;
+        height: auto;
+      }
+    }
   }
 }

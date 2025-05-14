@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    // align-items: center;
+    // text-align: center;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -38,3 +40,27 @@
     margin: 100px 0;
 }
 
+@media screen and (max-width: 987px) {
+    .services-item{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .services{
+        h1{
+            font-size: 32px;
+        }
+    }
+    .services-menu{
+        justify-content: center;
+        .services-item{
+            width: 320px;
+            h1{
+                font-size: 20px;
+            }
+        }
+    }
+
+}

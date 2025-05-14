@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 function Hero() {
 
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global")
   
   return (
     <div className="hero">
@@ -16,7 +16,7 @@ function Hero() {
         </p>
         <div className="hero-btn-group">
             <Link to={"/portfolio"}>Projects</Link>
-            <a href='https://t.me/Portfolioyim_AD' target="_blank">Telegram</a>
+            <a href='https://t.me/Portfolioyim_AD' target="_blank">Contact Us</a>
         </div>
       </div>
 

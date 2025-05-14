@@ -37,8 +37,8 @@ function AboutProject() {
         "A soft and elegant bakery logo featuring a chef's hat and fresh bread elements, symbolizing quality and craftsmanship.",
       description_uz:
         "Bosh oshpaz shapkasi va yangi non elementlarini o‘z ichiga olgan yumshoq va nafis nonvoyxona logotipi, sifat va hunarmandchilik ramzi sifatida.",
-      category_en: "Logo Design",
-      category_uz: "Logotip Dizayni",
+      category_en: "Branding",
+      category_uz: "Brending",
       type: "logo",
       client: "Zarbod",
       img: [
@@ -57,8 +57,8 @@ function AboutProject() {
         "A sophisticated medical logo featuring a bird, leaves, and a medical symbol, representing health, nature, and care.",
       description_uz:
         "Salomatlik, tabiat va g‘amxo‘rlikni ifodalovchi qush, barglar va tibbiy ramzdan iborat nafis tibbiyot logotipi.",
-      category_en: "Logo Design",
-      category_uz: "Logotip Dizayni",
+        category_en: "Branding",
+        category_uz: "Brending",
       type: "logo",
       client: "Simurgh Medical",
       img: [
@@ -151,8 +151,8 @@ function AboutProject() {
     },
     {
       id: 8,
-      title_en: "Mantality Health  trifold Brochure",
-      title_uz: "Mantality Health  Flayer",
+      title_en: "Mantality Health trifold Brochure",
+      title_uz: "Mantality Health Flayer",
       description_en:
         "They prepared a trifold brochure for the presentation of their solar panel service, and the client was pleased with the work. Leave your thoughts and questions in the comments section!",
       description_uz:
@@ -164,6 +164,72 @@ function AboutProject() {
       img: [
         "https://images-ecru.vercel.app/PortfoliAD/print/kachok1.jpg",
         "https://images-ecru.vercel.app/PortfoliAD/print/kachok2.jpg",
+  
+      ],
+      tech: ["Adobe Photoshop"],
+    },
+    {
+      id: 9,
+      title_en: "Ecosun Social Media Design",
+      title_uz: "Ecosun Ijtimoiy Tarmoq Dizayni",
+      description_en:
+        "While operating in the field of solar panel service, minimalistic and premium SMD products were produced with a greater emphasis on eco-friendliness, and the customer was satisfied with the work.",
+      description_uz:
+        "Quyosh panellari servisi bo'yicha faoliyat olib borar ekanlar va ko'proq eco ga urg'ru berilgan holda minimalistik va  premium smd tayorlab berildi, va mijozga ish maqul bo'ldi.",
+      category_en: "Social Media Design",
+      category_uz: "Ijtimoiy Tarmoq Dizayn",
+      type: "smd",
+      client: "Ecosun",
+      img: [
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/eco3.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/eco4.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/eco5.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/eco2.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/eco1.jpg",
+  
+      ],
+      tech: ["Adobe Photoshop"],
+    },
+    {
+      id: 10,
+      title_en: "Emu Social Media Design",
+      title_uz: "Emu Ijtimoiy Tarmoq Dizayni",
+      description_en:
+        "Designs were prepared that matched the brand's style, and the client was pleased with the work.",
+      description_uz:
+        "Brend stiliga mos dizaynlar tayorlab berildi, Mijozga ish maqul keldi",
+      category_en: "Social Media Design",
+      category_uz: "Ijtimoiy Tarmoq Dizayn",
+      type: "smd",
+      client: "Emu",
+      img: [
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/emu1.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/emu2.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/emu4.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/emu3.jpg",
+  
+      ],
+      tech: ["Adobe Photoshop"],
+    },
+    {
+      id: 11,
+      title_en: "Isso Social Media Design",
+      title_uz: "Isso Ijtimoiy Tarmoq Dizayni",
+      description_en:
+        "They are engaged in the production of heating equipment. They wanted the design to look minimalistic and premium, and the client liked the designs we prepared.",
+      description_uz:
+        "Issiqlik uskunalari ishlab chiqarish bilan shug'ullanar ekan.Dizayn minimalistik va premium ko'rinsin degandilar, tayorlagan dizaynlarimiz mijozga maqul keldi.",
+      category_en: "Social Media Design",
+      category_uz: "Ijtimoiy Tarmoq Dizayn",
+      type: "smd",
+      client: "Ecosun",
+      img: [
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/isso1.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/isso2.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/isso3.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/isso4.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/isso5.jpg",
+        "https://images-ecru.vercel.app/PortfoliAD/SMD/isso6.jpg",
   
       ],
       tech: ["Adobe Photoshop"],
