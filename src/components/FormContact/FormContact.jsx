@@ -75,7 +75,7 @@ export default function FormContact() {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="jane.smith@gmail.com"
+                placeholder="@Akbarov_Designer"
                 value={formData.email}
                 onChange={handleChange}
                 required

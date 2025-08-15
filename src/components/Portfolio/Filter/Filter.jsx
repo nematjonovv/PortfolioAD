@@ -1,9 +1,15 @@
 import { Context } from "../../../Context/Context";
 import "./Filter.scss";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 
 function Filter() {
-  const { category } = useContext(Context);
+  const [categories, setCategories] = useState([])
+  useEffect(()=>{
+    fetch('http://localhost:8080/api/categories')
+    .then((res) => res.json())
+    .then((data) => setCategories(data))
+  }, [])
+
   const { setType } = useContext(Context);
 
   return (
@@ -11,10 +17,10 @@ function Filter() {
       <h1>Portfolio</h1>
       <nav className="typeList">
         <button onClick={() => setType("All")}>All</button>
-        {category &&
-          category.map((category1, index) => (
-            <button onClick={() => setType(category1)} key={index}>
-              {category1}
+        {categories &&
+          categories.map((category, index) => (
+            <button onClick={() => setType(category.id)} key={index}>
+              {category.category}
             </button>
           ))}
       </nav>

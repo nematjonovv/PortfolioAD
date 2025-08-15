@@ -27,8 +27,8 @@ function Header() {
         
         <ul className={`navigation ${menuOpen ? "open" : ""}`}>
           <select className="changeLang" onChange={(e) => handleChangeLanguage(e.target.value)}>
-            <option value="en">EN1</option>
-            <option value="uz">UZ2</option>
+            <option value="en">EN</option>
+            <option value="uz">UZ</option>
           </select>
           <li className="navigation-item">
             <Link to="/" onClick={() => setMenuOpen(false)}>{t("home.navbar.home")}</Link>

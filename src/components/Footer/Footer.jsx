@@ -73,10 +73,10 @@ export default function Footer() {
               </svg>
             </a>
             <a href="https://www.pinterest.com/akbarovdavron0604/" target="_blank" className="social-link" aria-label="Pinterest">
-            <i class="bi bi-pinterest"></i>
+            <i className="bi bi-pinterest"></i>
             </a>
             <a href="https://www.behance.net/davronbekakbarov" target="_blank" className="social-link" aria-label="Behance">
-            <i class="bi bi-behance"></i>
+            <i className="bi bi-behance"></i>
             </a>
             
           </div>
